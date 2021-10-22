@@ -1,6 +1,8 @@
 spring:
   application:
-    name: myvalue
+    name: reto
+  profiles:
+    active: produccion
   cloud:
     config:
       enabled: true
